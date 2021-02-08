@@ -1,0 +1,76 @@
+body{
+	background: linear-gradient(to right, #F06969, #FAD6A6 );
+}
+
+
+h1{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-family: sans-serif;
+
+}
+
+
+
+.wrapper{
+	display: flex;
+	
+}
+/* this is for responsivity, when the width is adjusted to 1020px the .wrapper class changes*/
+@media(max-width: 1020px){
+	.wrapper{
+		display: block
+	}
+	#details{
+		margin-bottom:10vh;
+	}
+}
+
+container{
+	justify-content: center;
+	font-size: 10rem;
+}
+
+#details{
+	margin-top: 30vh;
+	font-size: 2rem;
+	text-transform: capitalize;
+	font-family: monospace;
+	word-spacing: 1rem;
+}
+
+#details > h2{
+	font-family: helvetica;
+	text-transform: none
+}
+/* This refers to the scarecrow image*/
+img{
+	max-width: 95%;
+	
+}
+
+.btn{
+	width:12rem;
+	height: 2rem;
+	background: #1D1C1C;
+	text-align: center;
+	cursor: pointer;
+	color: white;
+	font-family: fantasy;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	background: lightyellow;
+	color: black;
+	border:1px solid white;
+
+}
+
+footer{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 20vh;
+	font-size: 1.5rem;
+}
